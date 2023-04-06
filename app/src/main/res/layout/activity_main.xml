@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/fav"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtViewQuestion"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="150dp"
+        android:text="Bạn đã sống được bao nhiêu phút?"
+        android:textAlignment="center"
+        android:textColor="#182468"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Chọn ngày sinh" />
+
+    <TextView
+        android:id="@+id/txtViewDate"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="#182468"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewMinutesTitle"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="Bạn đã sống được: "
+        android:textAlignment="center"
+        android:textColor="#182468"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewMinutes"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#182468"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtViewMinutesUnit"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="phút"
+        android:textAlignment="center"
+        android:textColor="#182468"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
